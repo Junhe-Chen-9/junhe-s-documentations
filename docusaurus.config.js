@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Junhe-Chen-9/junhe-s-documentations',
+            'https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Junhe-Chen-9/junhe-s-documentations',
+            'https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
