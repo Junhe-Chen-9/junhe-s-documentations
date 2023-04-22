@@ -98,15 +98,15 @@ const config = {
             items: [
               {
                 label: 'Projects',
-                to: '/projects',
+                to: '/',
               },
               {
                 label: 'Machine Learning',
-                to: '/ml',
+                to: '/category/machine-learning',
               },
               {
                 label: 'Home Lab',
-                to: '/hl',
+                to: '/category/home-lab',
               },
             ],
           },
