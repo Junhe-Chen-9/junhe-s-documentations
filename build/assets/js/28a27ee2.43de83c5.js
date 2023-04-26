@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjunhe_s_documents=self.webpackChunkjunhe_s_documents||[]).push([[3150],{9645:e=>{e.exports=JSON.parse('{"label":"helloworld","permalink":"/blog/tags/helloworld","allTagsPath":"/blog/tags","count":1}')}}]);
