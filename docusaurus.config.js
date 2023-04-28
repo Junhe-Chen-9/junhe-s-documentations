@@ -75,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Projects',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -97,8 +97,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Projects',
+                label: 'Introduction',
                 to: '/',
+              },
+              {
+                label: 'Projects',
+                to: '/category/projects',
               },
               {
                 label: 'Machine Learning',

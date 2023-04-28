@@ -5,7 +5,7 @@ slug: /
 
 ## Introduction ##
 
-Hi! My name is Junhe Chen, I go by JC since it is eaiser for everyone to pronounce.
+👋 Hi! My name is Junhe Chen [(JC)](https://bio.junhechen.com), a Full Stack Software Engineer.
 
 Here you will find all the documentation for my projects, and my notes studying Computer Science.
 
