@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjunhe_s_documents=self.webpackChunkjunhe_s_documents||[]).push([[6901],{8526:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/dailychallenge","page":1,"postsPerPage":10,"totalPages":1,"totalCount":8,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
