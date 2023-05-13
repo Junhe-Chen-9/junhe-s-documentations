@@ -4,10 +4,18 @@
         <title>Junhe Chen' Documentations Blog</title>
         <link>https://docs.junhechen.com/blog</link>
         <description>Junhe Chen' Documentations Blog</description>
-        <lastBuildDate>Fri, 12 May 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 May 2023 03:28:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[test]]></title>
+            <link>https://docs.junhechen.com/blog/test</link>
+            <guid>https://docs.junhechen.com/blog/test</guid>
+            <pubDate>Sat, 13 May 2023 03:28:54 GMT</pubDate>
+            <description><![CDATA[lol]]></description>
+            <content:encoded><![CDATA[<p>lol</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Leetcode 2466]]></title>
             <link>https://docs.junhechen.com/blog/Leetcode 2466</link>
