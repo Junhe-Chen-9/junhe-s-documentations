@@ -1,0 +1,40 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-20-welcome/index.md",
+  "source": "@site/blog/2023-04-20-welcome/index.md",
+  "title": "Welcome",
+  "description": "👋 Hi!",
+  "date": "2023-04-20T00:00:00.000Z",
+  "formattedDate": "April 20, 2023",
+  "tags": [
+    {
+      "label": "helloworld",
+      "permalink": "/blog/tags/helloworld"
+    }
+  ],
+  "readingTime": 0.53,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "helloworld"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 1312",
+    "permalink": "/blog/Leetcode 1312"
+  }
+}

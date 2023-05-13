@@ -1,0 +1,63 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Introduction",
+          "docs": [
+            {
+              "id": "hl/Proxmox",
+              "path": "/hl/Proxmox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ml/Fundamental Concepts In Machine Learning",
+              "path": "/ml/Fundamental Concepts In Machine Learning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/Index",
+              "path": "/projects/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/projects",
+              "path": "/category/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/machine-learning",
+              "path": "/category/machine-learning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/home-lab",
+              "path": "/category/home-lab",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

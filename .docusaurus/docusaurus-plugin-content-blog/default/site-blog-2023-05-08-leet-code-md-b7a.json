@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 54",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-08-Leet Code.md",
+  "source": "@site/blog/2023-05-08-Leet Code.md",
+  "title": "Leetcode 54",
+  "description": "Working with matrix can be challenging, in this question, the main thing is attention to detail, making sure adding no duplicate items and shrink the boundry.",
+  "date": "2023-05-08T00:00:00.000Z",
+  "formattedDate": "May 8, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 1.11,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 54",
+    "title": "Leetcode 54",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 59",
+    "permalink": "/blog/Leetcode 59"
+  },
+  "nextItem": {
+    "title": "Leetcode 1572",
+    "permalink": "/blog/Leetcode 1572"
+  }
+}

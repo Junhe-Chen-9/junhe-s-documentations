@@ -1,0 +1,15 @@
+{
+  "title": "Projects",
+  "slug": "/category/projects",
+  "permalink": "/category/projects",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "Index",
+      "permalink": "/projects/"
+    }
+  }
+}

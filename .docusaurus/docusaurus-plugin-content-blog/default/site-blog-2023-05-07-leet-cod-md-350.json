@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1572",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-07-Leet Cod.md",
+  "source": "@site/blog/2023-05-07-Leet Cod.md",
+  "title": "Leetcode 1572",
+  "description": "working with matrix can be difficult lets start this easy question tho.",
+  "date": "2023-05-07T00:00:00.000Z",
+  "formattedDate": "May 7, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.83,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1572",
+    "title": "Leetcode 1572",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 54",
+    "permalink": "/blog/Leetcode 54"
+  },
+  "nextItem": {
+    "title": "Leetcode 1964",
+    "permalink": "/blog/Leetcode 1964"
+  }
+}

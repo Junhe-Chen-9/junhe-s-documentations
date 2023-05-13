@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Leetcode 2466",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-12-Leet Code.md",
+  "source": "@site/blog/2023-05-12-Leet Code.md",
+  "title": "Leetcode 2466",
+  "description": "this question took me to realize, but read the instruction clearly this should be a easy problem.",
+  "date": "2023-05-12T00:00:00.000Z",
+  "formattedDate": "May 12, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.77,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 2466",
+    "title": "Leetcode 2466",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "nextItem": {
+    "title": "Leetcode 2140",
+    "permalink": "/blog/Leetcode 2140"
+  }
+}

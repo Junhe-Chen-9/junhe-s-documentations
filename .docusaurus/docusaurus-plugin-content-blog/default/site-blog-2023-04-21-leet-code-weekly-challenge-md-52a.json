@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 727",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-21-Leet Code Weekly Challenge.md",
+  "source": "@site/blog/2023-04-21-Leet Code Weekly Challenge.md",
+  "title": "Leetcode 727",
+  "description": "This question interesting because our dp is not finding the min of the length but it is finding the ending index of given starting point p1. This is a very new DP problem that I have first encountered.",
+  "date": "2023-04-21T00:00:00.000Z",
+  "formattedDate": "April 21, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "weeklychallenge",
+      "permalink": "/blog/tags/weeklychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 1.2,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 727",
+    "title": "Leetcode 727",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "weeklychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 1416",
+    "permalink": "/blog/Leetcode 1416"
+  },
+  "nextItem": {
+    "title": "Leetcode 1312",
+    "permalink": "/blog/Leetcode 1312"
+  }
+}

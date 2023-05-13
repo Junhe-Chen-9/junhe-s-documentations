@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1579",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-29-Leet Code.md",
+  "source": "@site/blog/2023-04-29-Leet Code.md",
+  "title": "Leetcode 1579",
+  "description": "Still union find, it is easy to identify, but there is little twist, initially I thought of sorting the edges, so we can union type 3 first, but this takes n log n time because sorting is bound by that, if we traversal twice the edges, still we only take just n time, so it would actually beat the way I implemented at begining. other than this, this question uses two union find data structure but everthing should be just the same.",
+  "date": "2023-04-29T00:00:00.000Z",
+  "formattedDate": "April 29, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 1.575,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1579",
+    "title": "Leetcode 1579",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 1491",
+    "permalink": "/blog/Leetcode 1491"
+  },
+  "nextItem": {
+    "title": "Leetcode 1697",
+    "permalink": "/blog/Leetcode 1697"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1964",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-06-Leet Code.md",
+  "source": "@site/blog/2023-05-06-Leet Code.md",
+  "title": "Leetcode 1964",
+  "description": "Difficult problem I will come back to this question later.",
+  "date": "2023-05-06T00:00:00.000Z",
+  "formattedDate": "May 6, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.85,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1964",
+    "title": "Leetcode 1964",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 1572",
+    "permalink": "/blog/Leetcode 1572"
+  },
+  "nextItem": {
+    "title": "Leetcode 1498",
+    "permalink": "/blog/Leetcode 1498"
+  }
+}

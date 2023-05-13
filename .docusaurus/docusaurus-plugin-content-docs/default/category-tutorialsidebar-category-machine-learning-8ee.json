@@ -1,0 +1,15 @@
+{
+  "title": "Machine Learning",
+  "slug": "/category/machine-learning",
+  "permalink": "/category/machine-learning",
+  "navigation": {
+    "previous": {
+      "title": "Index",
+      "permalink": "/projects/"
+    },
+    "next": {
+      "title": "Fundamental Concepts In Machine Learning",
+      "permalink": "/ml/Fundamental Concepts In Machine Learning"
+    }
+  }
+}

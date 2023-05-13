@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1312",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-21-Leet Code/index.md",
+  "source": "@site/blog/2023-04-21-Leet Code/index.md",
+  "title": "Leetcode 1312",
+  "description": "This week we are been doing DP problems and this is one of them, it is quite easy to implement, but little tricky to find the entry point.",
+  "date": "2023-04-21T00:00:00.000Z",
+  "formattedDate": "April 21, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.915,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1312",
+    "title": "Leetcode 1312",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 727",
+    "permalink": "/blog/Leetcode 727"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "projects/Projects",
+  "id": "projects/Projects",
+  "title": "Projects",
+  "description": "Full Stack Projects",
+  "source": "@site/docs/projects/Projects.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/",
+  "permalink": "/projects/",
+  "draft": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/projects/Projects.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Projects",
+    "permalink": "/category/projects"
+  },
+  "next": {
+    "title": "Machine Learning",
+    "permalink": "/category/machine-learning"
+  }
+}

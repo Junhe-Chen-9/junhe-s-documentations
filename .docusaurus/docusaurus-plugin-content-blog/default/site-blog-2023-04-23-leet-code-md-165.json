@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1046",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-23-Leet Code.md",
+  "source": "@site/blog/2023-04-23-Leet Code.md",
+  "title": "Leetcode 1046",
+  "description": "Very straightforward question, just mimc the instruction using priority queue.",
+  "date": "2023-04-23T00:00:00.000Z",
+  "formattedDate": "April 23, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.505,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1046",
+    "title": "Leetcode 1046",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 2336",
+    "permalink": "/blog/Leetcode 2336"
+  },
+  "nextItem": {
+    "title": "Leetcode 1416",
+    "permalink": "/blog/Leetcode 1416"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 2215",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-02-Leet Code.md",
+  "source": "@site/blog/2023-05-02-Leet Code.md",
+  "title": "Leetcode 2215",
+  "description": "Three easy question in a row, next might be hard. there is not much to talk about for this question.",
+  "date": "2023-05-02T00:00:00.000Z",
+  "formattedDate": "May 2, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.405,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 2215",
+    "title": "Leetcode 2215",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 649",
+    "permalink": "/blog/Leetcode 649"
+  },
+  "nextItem": {
+    "title": "Leetcode 1822",
+    "permalink": "/blog/Leetcode 1822"
+  }
+}

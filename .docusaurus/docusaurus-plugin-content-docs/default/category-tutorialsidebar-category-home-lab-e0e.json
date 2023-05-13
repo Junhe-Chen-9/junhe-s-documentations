@@ -1,0 +1,15 @@
+{
+  "title": "Home Lab",
+  "slug": "/category/home-lab",
+  "permalink": "/category/home-lab",
+  "navigation": {
+    "previous": {
+      "title": "Fundamental Concepts In Machine Learning",
+      "permalink": "/ml/Fundamental Concepts In Machine Learning"
+    },
+    "next": {
+      "title": "Proxmox",
+      "permalink": "/hl/Proxmox"
+    }
+  }
+}

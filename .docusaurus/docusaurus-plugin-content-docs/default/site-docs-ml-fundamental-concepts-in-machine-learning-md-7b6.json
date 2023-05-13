@@ -1,0 +1,24 @@
+{
+  "unversionedId": "ml/Fundamental Concepts In Machine Learning",
+  "id": "ml/Fundamental Concepts In Machine Learning",
+  "title": "Fundamental Concepts In Machine Learning",
+  "description": "Main Ideas",
+  "source": "@site/docs/ml/Fundamental Concepts In Machine Learning.md",
+  "sourceDirName": "ml",
+  "slug": "/ml/Fundamental Concepts In Machine Learning",
+  "permalink": "/ml/Fundamental Concepts In Machine Learning",
+  "draft": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/ml/Fundamental Concepts In Machine Learning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Machine Learning",
+    "permalink": "/category/machine-learning"
+  },
+  "next": {
+    "title": "Home Lab",
+    "permalink": "/category/home-lab"
+  }
+}

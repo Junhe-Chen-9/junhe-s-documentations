@@ -1,0 +1,20 @@
+{
+  "unversionedId": "hl/Proxmox",
+  "id": "hl/Proxmox",
+  "title": "Proxmox",
+  "description": "TO BE UPDATED",
+  "source": "@site/docs/hl/Proxmox.md",
+  "sourceDirName": "hl",
+  "slug": "/hl/Proxmox",
+  "permalink": "/hl/Proxmox",
+  "draft": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/hl/Proxmox.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Home Lab",
+    "permalink": "/category/home-lab"
+  }
+}

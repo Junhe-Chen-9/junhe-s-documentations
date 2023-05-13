@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 319",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-04-26-Leet Code.md",
+  "source": "@site/blog/2023-04-26-Leet Code.md",
+  "title": "Leetcode 319",
+  "description": "This is a harder question for me, write on paper and find the parttern.",
+  "date": "2023-04-26T00:00:00.000Z",
+  "formattedDate": "April 26, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "dailychallenge",
+      "permalink": "/blog/tags/dailychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.47,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 319",
+    "title": "Leetcode 319",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "dailychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Leetcode 839",
+    "permalink": "/blog/Leetcode 839"
+  },
+  "nextItem": {
+    "title": "Leetcode 258",
+    "permalink": "/blog/Leetcode 258"
+  }
+}
