@@ -1,28 +1,6 @@
 {
   "blogPosts": [
     {
-      "id": "/test",
-      "metadata": {
-        "permalink": "/blog/test",
-        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/test.md",
-        "source": "@site/blog/test.md",
-        "title": "test",
-        "description": "lol",
-        "date": "2023-05-13T03:28:54.155Z",
-        "formattedDate": "May 13, 2023",
-        "tags": [],
-        "readingTime": 0.005,
-        "hasTruncateMarker": false,
-        "authors": [],
-        "frontMatter": {},
-        "nextItem": {
-          "title": "Leetcode 2466",
-          "permalink": "/blog/Leetcode 2466"
-        }
-      },
-      "content": "lol"
-    },
-    {
       "id": "Leetcode 2466",
       "metadata": {
         "permalink": "/blog/Leetcode 2466",
@@ -68,10 +46,6 @@
             "dailychallenge",
             "notes"
           ]
-        },
-        "prevItem": {
-          "title": "test",
-          "permalink": "/blog/test"
         },
         "nextItem": {
           "title": "Leetcode 2140",

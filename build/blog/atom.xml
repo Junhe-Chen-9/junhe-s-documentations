@@ -2,19 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.junhechen.com/blog</id>
     <title>Junhe Chen' Documentations Blog</title>
-    <updated>2023-05-13T03:28:54.155Z</updated>
+    <updated>2023-05-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.junhechen.com/blog"/>
     <subtitle>Junhe Chen' Documentations Blog</subtitle>
     <icon>https://docs.junhechen.com/img/icon.jpeg</icon>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://docs.junhechen.com/blog/test</id>
-        <link href="https://docs.junhechen.com/blog/test"/>
-        <updated>2023-05-13T03:28:54.155Z</updated>
-        <summary type="html"><![CDATA[lol]]></summary>
-        <content type="html"><![CDATA[<p>lol</p>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Leetcode 2466]]></title>
         <id>https://docs.junhechen.com/blog/Leetcode 2466</id>
