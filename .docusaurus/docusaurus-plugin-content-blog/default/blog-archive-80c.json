@@ -7,7 +7,7 @@
         "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-13-Leet Code.md",
         "source": "@site/blog/2023-05-13-Leet Code.md",
         "title": "Leetcode 1799",
-        "description": "The dp part of the problem is not hard, but mask is difficult.",
+        "description": "The dp part of the problem is not hard, but mask is difficult, and that is what we have to take a closer look to.",
         "date": "2023-05-13T00:00:00.000Z",
         "formattedDate": "May 13, 2023",
         "tags": [
@@ -24,7 +24,7 @@
             "permalink": "/blog/tags/notes"
           }
         ],
-        "readingTime": 1.19,
+        "readingTime": 1.25,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -52,7 +52,7 @@
           "permalink": "/blog/Leetcode 2466"
         }
       },
-      "content": "The dp part of the problem is not hard, but mask is difficult.\n```java\nclass Solution {\n    int[] memo;\n    public int maxScore(int[] nums) {\n        memo = new int[ 1 << nums.length];\n        Arrays.fill(memo,-1);\n        return dp(nums, 0, 0);\n    }\n    private int dp(int[] nums, int mask, int pairsPicked){\n        // base case \n        if(2 * pairsPicked == nums.length) return 0; // we picked all number\n        // solved case\n        if(memo[mask] != -1) return memo[mask];\n\n        int max = 0;\n        for(int i = 0; i < nums.length; i ++){\n            for(int j = i + 1; j < nums.length; j ++){\n                // If the numbers are same, or already picked, then we move to next number.\n                if (((mask >> i) & 1) == 1 || ((mask >> j) & 1) == 1) {\n                    continue;\n                }\n\n                // Both numbers are marked as picked in this new mask.\n                int newMask = mask | (1 << i) | (1 << j);\n                 // Calculate score of current pair of numbers, and the remaining array.\n                int currScore = (pairsPicked + 1) * gcd(nums[i], nums[j]);\n                int remainingScore = dp(nums, newMask, pairsPicked + 1);\n\n                // Store the maximum score.\n                max = Math.max(max, currScore + remainingScore);\n                // We will use old mask in loop's next interation, \n                // means we discarded the picked number and backtracked.\n            }\n        }\n        return memo[mask] = max;\n    }\n    private int gcd(int a, int b) {\n        if (b == 0) {\n            return a;\n        }\n        return gcd(b, a % b);\n    }\n}\n```"
+      "content": "The dp part of the problem is not hard, but mask is difficult, and that is what we have to take a closer look to.\n\n\n```java\nclass Solution {\n    int[] memo;\n    public int maxScore(int[] nums) {\n        memo = new int[ 1 << nums.length];\n        Arrays.fill(memo,-1);\n        return dp(nums, 0, 0);\n    }\n    private int dp(int[] nums, int mask, int pairsPicked){\n        // base case \n        if(2 * pairsPicked == nums.length) return 0; // we picked all number\n        // solved case\n        if(memo[mask] != -1) return memo[mask];\n\n        int max = 0;\n        for(int i = 0; i < nums.length; i ++){\n            for(int j = i + 1; j < nums.length; j ++){\n                // If the numbers are same, or already picked, then we move to next number.\n                if (((mask >> i) & 1) == 1 || ((mask >> j) & 1) == 1) {\n                    continue;\n                }\n\n                // Both numbers are marked as picked in this new mask.\n                int newMask = mask | (1 << i) | (1 << j);\n                 // Calculate score of current pair of numbers, and the remaining array.\n                int currScore = (pairsPicked + 1) * gcd(nums[i], nums[j]);\n                int remainingScore = dp(nums, newMask, pairsPicked + 1);\n\n                // Store the maximum score.\n                max = Math.max(max, currScore + remainingScore);\n                // We will use old mask in loop's next interation, \n                // means we discarded the picked number and backtracked.\n            }\n        }\n        return memo[mask] = max;\n    }\n    private int gcd(int a, int b) {\n        if (b == 0) {\n            return a;\n        }\n        return gcd(b, a % b);\n    }\n}\n```"
     },
     {
       "id": "Leetcode 2466",

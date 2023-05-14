@@ -3,7 +3,7 @@
   "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-13-Leet Code.md",
   "source": "@site/blog/2023-05-13-Leet Code.md",
   "title": "Leetcode 1799",
-  "description": "The dp part of the problem is not hard, but mask is difficult.",
+  "description": "The dp part of the problem is not hard, but mask is difficult, and that is what we have to take a closer look to.",
   "date": "2023-05-13T00:00:00.000Z",
   "formattedDate": "May 13, 2023",
   "tags": [
@@ -20,7 +20,7 @@
       "permalink": "/blog/tags/notes"
     }
   ],
-  "readingTime": 1.19,
+  "readingTime": 1.25,
   "hasTruncateMarker": false,
   "authors": [
     {
