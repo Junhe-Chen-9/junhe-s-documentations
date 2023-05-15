@@ -30,4 +30,3 @@ process = subprocess.call(shlex.split(gitcommit), stdout=subprocess.PIPE, stderr
 
 gitpush = 'git push'
 process = subprocess.call(shlex.split(gitpush), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-
