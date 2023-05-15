@@ -3,7 +3,7 @@
   "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-14-Leet Code.md",
   "source": "@site/blog/2023-05-14-Leet Code.md",
   "title": "Leetcode 1721",
-  "description": "this is a two pointer question, it uses slow fast pointer technique to get pointer to the kth node from the end, then find the front node.",
+  "description": "this is a two pointer question, it uses slow fast pointer technique to get pointer to the kth node from the end, then find the front node !!!",
   "date": "2023-05-14T00:00:00.000Z",
   "formattedDate": "May 14, 2023",
   "tags": [
@@ -20,7 +20,7 @@
       "permalink": "/blog/tags/notes"
     }
   ],
-  "readingTime": 1.58,
+  "readingTime": 1.625,
   "hasTruncateMarker": false,
   "authors": [
     {
