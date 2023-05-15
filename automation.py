@@ -19,7 +19,7 @@ if args.password == None:
 password = args.password
 
 command1 = 'sudo npm run build'
-process = subprocess.Popen(shlex.split(command1), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+process = subprocess.Popen(shlex.split(command1), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 process.communicate('{}\n'.format(password))
 
 gitadd = 'git add *'
