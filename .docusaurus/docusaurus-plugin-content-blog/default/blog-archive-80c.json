@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 1721",
+      "metadata": {
+        "permalink": "/blog/Leetcode 1721",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-14-Leet Code.md",
+        "source": "@site/blog/2023-05-14-Leet Code.md",
+        "title": "Leetcode 1721",
+        "description": "this is a two pointer question, it uses slow fast pointer technique to get pointer to the kth node from the end, then find the front node.",
+        "date": "2023-05-14T00:00:00.000Z",
+        "formattedDate": "May 14, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 1.58,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 1721",
+          "title": "Leetcode 1721",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 1799",
+          "permalink": "/blog/Leetcode 1799"
+        }
+      },
+      "content": "this is a two pointer question, it uses slow fast pointer technique to get pointer to the kth node from the end, then find the front node. \n\n```java\nclass Solution {\n    public ListNode swapNodes(ListNode head, int k) {\n        // locate the end node \n        ListNode slow = head;\n        ListNode fast = head;\n        int k1 = k;\n        while(fast != null && k1 > 0){\n            fast = fast.next;\n            k1 --;\n        }\n        while(fast != null){\n            slow = slow.next;\n            fast = fast.next;\n        }\n        ListNode p = head;\n        while(p != null && k > 1){\n            p = p.next;\n            k --;\n        }\n        // make the swap \n        int temp = p.val;\n        p.val = slow.val;\n        slow.val = temp;\n        return head;\n    }\n}\n```\n\n\n### 265. Paint House II ###\nthis is a classic dp problem, but also little like advance graph apporach. \n```java\nclass Solution {\n    public int minCostII(int[][] costs) {\n        if(costs.length == 0) return 0; // nothing to paint\n        int k = costs[0].length; // the k color we are looking for\n        int n = costs.length;\n        int[] previousRow = costs[0];\n\n        for(int house = 1; house < n; house++){\n            // we going to look at curr costs\n            int[] currRow = new int[k];\n            for(int color = 0; color < k; color ++){\n                int min = Integer.MAX_VALUE;\n                // locate the cheapest solution from last row, we want the cheapest cost so far\n                for(int previousColor = 0; previousColor < k; previousColor ++){\n                    if(color == previousColor){\n                        // we can't print two adjusent color same\n                        continue;\n                    }\n                    min = Math.min(min, previousRow[previousColor]);\n                }\n                // if we would paint curr house curr color, then we add cost from min previous house and cost of curr house \n                currRow[color] += costs[house][color] += min;\n            }\n            // now we want to change previousRow = curr\n            previousRow = currRow;\n        }\n        // now we have the final row, find return the res\n        int res = Integer.MAX_VALUE;\n        for(int cost : previousRow){\n            res = Math.min(res,cost);\n        }\n        return res;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 1799",
       "metadata": {
         "permalink": "/blog/Leetcode 1799",
@@ -24,7 +78,7 @@
             "permalink": "/blog/tags/notes"
           }
         ],
-        "readingTime": 1.25,
+        "readingTime": 1.29,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -47,12 +101,16 @@
             "notes"
           ]
         },
+        "prevItem": {
+          "title": "Leetcode 1721",
+          "permalink": "/blog/Leetcode 1721"
+        },
         "nextItem": {
           "title": "Leetcode 2466",
           "permalink": "/blog/Leetcode 2466"
         }
       },
-      "content": "The dp part of the problem is not hard, but mask is difficult, and that is what we have to take a closer look to.\n\n\n```java\nclass Solution {\n    int[] memo;\n    public int maxScore(int[] nums) {\n        memo = new int[ 1 << nums.length];\n        Arrays.fill(memo,-1);\n        return dp(nums, 0, 0);\n    }\n    private int dp(int[] nums, int mask, int pairsPicked){\n        // base case \n        if(2 * pairsPicked == nums.length) return 0; // we picked all number\n        // solved case\n        if(memo[mask] != -1) return memo[mask];\n\n        int max = 0;\n        for(int i = 0; i < nums.length; i ++){\n            for(int j = i + 1; j < nums.length; j ++){\n                // If the numbers are same, or already picked, then we move to next number.\n                if (((mask >> i) & 1) == 1 || ((mask >> j) & 1) == 1) {\n                    continue;\n                }\n\n                // Both numbers are marked as picked in this new mask.\n                int newMask = mask | (1 << i) | (1 << j);\n                 // Calculate score of current pair of numbers, and the remaining array.\n                int currScore = (pairsPicked + 1) * gcd(nums[i], nums[j]);\n                int remainingScore = dp(nums, newMask, pairsPicked + 1);\n\n                // Store the maximum score.\n                max = Math.max(max, currScore + remainingScore);\n                // We will use old mask in loop's next interation, \n                // means we discarded the picked number and backtracked.\n            }\n        }\n        return memo[mask] = max;\n    }\n    private int gcd(int a, int b) {\n        if (b == 0) {\n            return a;\n        }\n        return gcd(b, a % b);\n    }\n}\n```"
+      "content": "The dp part of the problem is not hard, but mask is difficult, and that is what we have to take a closer look to.\nI need to review this question tmr again.\n\n\n```java\nclass Solution {\n    int[] memo;\n    public int maxScore(int[] nums) {\n        memo = new int[ 1 << nums.length];\n        Arrays.fill(memo,-1);\n        return dp(nums, 0, 0);\n    }\n    private int dp(int[] nums, int mask, int pairsPicked){\n        // base case \n        if(2 * pairsPicked == nums.length) return 0; // we picked all number\n        // solved case\n        if(memo[mask] != -1) return memo[mask];\n\n        int max = 0;\n        for(int i = 0; i < nums.length; i ++){\n            for(int j = i + 1; j < nums.length; j ++){\n                // If the numbers are same, or already picked, then we move to next number.\n                if (((mask >> i) & 1) == 1 || ((mask >> j) & 1) == 1) {\n                    continue;\n                }\n\n                // Both numbers are marked as picked in this new mask.\n                int newMask = mask | (1 << i) | (1 << j);\n                 // Calculate score of current pair of numbers, and the remaining array.\n                int currScore = (pairsPicked + 1) * gcd(nums[i], nums[j]);\n                int remainingScore = dp(nums, newMask, pairsPicked + 1);\n\n                // Store the maximum score.\n                max = Math.max(max, currScore + remainingScore);\n                // We will use old mask in loop's next interation, \n                // means we discarded the picked number and backtracked.\n            }\n        }\n        return memo[mask] = max;\n    }\n    private int gcd(int a, int b) {\n        if (b == 0) {\n            return a;\n        }\n        return gcd(b, a % b);\n    }\n}\n```"
     },
     {
       "id": "Leetcode 2466",

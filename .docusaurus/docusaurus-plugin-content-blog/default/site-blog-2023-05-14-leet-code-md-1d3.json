@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Leetcode 1721",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-14-Leet Code.md",
+  "source": "@site/blog/2023-05-14-Leet Code.md",
+  "title": "Leetcode 1721",
+  "description": "this is a two pointer question, it uses slow fast pointer technique to get pointer to the kth node from the end, then find the front node.",
+  "date": "2023-05-14T00:00:00.000Z",
+  "formattedDate": "May 14, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "weeklychallenge",
+      "permalink": "/blog/tags/weeklychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 1.58,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1721",
+    "title": "Leetcode 1721",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "weeklychallenge",
+      "notes"
+    ]
+  },
+  "nextItem": {
+    "title": "Leetcode 1799",
+    "permalink": "/blog/Leetcode 1799"
+  }
+}

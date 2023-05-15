@@ -20,7 +20,7 @@
       "permalink": "/blog/tags/notes"
     }
   ],
-  "readingTime": 1.25,
+  "readingTime": 1.29,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -42,6 +42,10 @@
       "weeklychallenge",
       "notes"
     ]
+  },
+  "prevItem": {
+    "title": "Leetcode 1721",
+    "permalink": "/blog/Leetcode 1721"
   },
   "nextItem": {
     "title": "Leetcode 2466",
