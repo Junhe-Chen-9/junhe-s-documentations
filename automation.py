@@ -5,7 +5,7 @@ import argparse
 import sys
 import os
 from datetime import date
-
+"""
 # argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-p", dest="password", help="sudo password")
@@ -18,10 +18,12 @@ if args.password == None:
 
 password = args.password
 
-command1 = 'sudo npm run build'
+command1 = 'sudo npm run bußßßßild'
 #process = subprocess.Popen(shlex.split(command1), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 #process.communicate('{}\n'.format(password))
 p = os.system('echo %s|sudo -S %s' % (password, command1))
+
+"""
 
 gitadd = 'git add *'
 process = subprocess.call(shlex.split(gitadd), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
