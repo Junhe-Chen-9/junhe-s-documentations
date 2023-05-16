@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjunhe_s_documents=self.webpackChunkjunhe_s_documents||[]).push([[2587],{3265:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/weeklychallenge","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
