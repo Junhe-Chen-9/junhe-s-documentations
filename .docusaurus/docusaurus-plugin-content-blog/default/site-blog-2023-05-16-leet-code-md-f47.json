@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Leetcode 2130",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-16-Leet Code.md",
+  "source": "@site/blog/2023-05-16-Leet Code.md",
+  "title": "Leetcode 2130",
+  "description": "This involves going to middle, reverse second half and then pair them up",
+  "date": "2023-05-16T00:00:00.000Z",
+  "formattedDate": "May 16, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "weeklychallenge",
+      "permalink": "/blog/tags/weeklychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.845,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 2130",
+    "title": "Leetcode 2130",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "weeklychallenge",
+      "notes"
+    ]
+  },
+  "nextItem": {
+    "title": "Leetcode 24",
+    "permalink": "/blog/Leetcode 24"
+  }
+}
