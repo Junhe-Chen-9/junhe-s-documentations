@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'fb0'),
+    component: ComponentCreator('/blog', '2e5'),
     exact: true
   },
   {
@@ -148,18 +148,23 @@ export default [
     exact: true
   },
   {
+    path: '/blog/Leetcode 785',
+    component: ComponentCreator('/blog/Leetcode 785', '2b7'),
+    exact: true
+  },
+  {
     path: '/blog/Leetcode 839',
     component: ComponentCreator('/blog/Leetcode 839', '31b'),
     exact: true
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '4d7'),
+    component: ComponentCreator('/blog/page/2', 'c02'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', 'b8f'),
+    component: ComponentCreator('/blog/page/3', '45b'),
     exact: true
   },
   {
@@ -189,37 +194,37 @@ export default [
   },
   {
     path: '/blog/tags/leetcode',
-    component: ComponentCreator('/blog/tags/leetcode', '3c5'),
+    component: ComponentCreator('/blog/tags/leetcode', 'c70'),
     exact: true
   },
   {
     path: '/blog/tags/leetcode/page/2',
-    component: ComponentCreator('/blog/tags/leetcode/page/2', '877'),
+    component: ComponentCreator('/blog/tags/leetcode/page/2', 'b94'),
     exact: true
   },
   {
     path: '/blog/tags/leetcode/page/3',
-    component: ComponentCreator('/blog/tags/leetcode/page/3', 'a81'),
+    component: ComponentCreator('/blog/tags/leetcode/page/3', '993'),
     exact: true
   },
   {
     path: '/blog/tags/notes',
-    component: ComponentCreator('/blog/tags/notes', '202'),
+    component: ComponentCreator('/blog/tags/notes', 'b0e'),
     exact: true
   },
   {
     path: '/blog/tags/notes/page/2',
-    component: ComponentCreator('/blog/tags/notes/page/2', 'f5e'),
+    component: ComponentCreator('/blog/tags/notes/page/2', 'b9d'),
     exact: true
   },
   {
     path: '/blog/tags/notes/page/3',
-    component: ComponentCreator('/blog/tags/notes/page/3', 'e3e'),
+    component: ComponentCreator('/blog/tags/notes/page/3', '3c1'),
     exact: true
   },
   {
     path: '/blog/tags/weeklychallenge',
-    component: ComponentCreator('/blog/tags/weeklychallenge', '140'),
+    component: ComponentCreator('/blog/tags/weeklychallenge', 'c64'),
     exact: true
   },
   {

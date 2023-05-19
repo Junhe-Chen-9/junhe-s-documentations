@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 785",
+      "metadata": {
+        "permalink": "/blog/Leetcode 785",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-18-Leet Code.md",
+        "source": "@site/blog/2023-05-18-Leet Code.md",
+        "title": "Leetcode 785",
+        "description": "Simple graph coloring question.",
+        "date": "2023-05-18T00:00:00.000Z",
+        "formattedDate": "May 18, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 0.54,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 785",
+          "title": "Leetcode 785",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 1557",
+          "permalink": "/blog/Leetcode 1557"
+        }
+      },
+      "content": "Simple graph coloring question.\n\n```java\nclass Solution {\n    public boolean isBipartite(int[][] graph) {\n        // graph color\n        int n = graph.length;\n        int[] color = new int[n];\n        Arrays.fill(color, -1);\n\n        for(int i = 0; i < n; i ++){\n            if(color[i] == -1){\n                if(!isBipartite(graph,i,color)){\n                    return false;\n                }\n            }\n        }\n        return true;\n    }\n    private boolean isBipartite(int[][] graph, int curr, int[] color){\n        Queue<Integer> q = new LinkedList<>();\n        color[curr] = 1; // color curr node to 1 \n        q.add(curr);\n        while(!q.isEmpty()){\n            int c = q.poll();\n            for(int next : graph[c]){\n                if(color[next] == color[c]) return false;\n                if(color[next] == -1){\n                    // this is not colored yet \n                    color[next] = 1 - color[c];\n                    q.add(next);\n                }\n            }\n        }\n        return true;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 1557",
       "metadata": {
         "permalink": "/blog/Leetcode 1557",
@@ -46,6 +100,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 785",
+          "permalink": "/blog/Leetcode 785"
         },
         "nextItem": {
           "title": "Leetcode 2130",
