@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 347",
+      "metadata": {
+        "permalink": "/blog/Leetcode 347",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-21-Leet Code.md",
+        "source": "@site/blog/2023-05-21-Leet Code.md",
+        "title": "Leetcode 347",
+        "description": "",
+        "date": "2023-05-21T00:00:00.000Z",
+        "formattedDate": "May 21, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 0.38,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 347",
+          "title": "Leetcode 347",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 399",
+          "permalink": "/blog/Leetcode 399"
+        }
+      },
+      "content": "```java\nclass Solution {\n    public int[] topKFrequent(int[] nums, int k) {\n        // don't think quicksort is acutally good here \n        int[] res = new int[k];\n        HashMap<Integer,Integer> count = new HashMap<>();\n        for(int n : nums){\n            if(count.containsKey(n)){\n                count.put(n,count.get(n) + 1);\n            }else{\n                count.put(n,1);\n            }\n        }\n        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> {return b[1] - a[1];});\n        for(int key : count.keySet()){\n            pq.add(new int[]{key,count.get(key)});\n        }\n        for(int i = 0; i < k; i ++){\n            res[i] = pq.poll()[0];\n        }\n        return res;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 399",
       "metadata": {
         "permalink": "/blog/Leetcode 399",
@@ -46,6 +100,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 347",
+          "permalink": "/blog/Leetcode 347"
         },
         "nextItem": {
           "title": "Leetcode 785",

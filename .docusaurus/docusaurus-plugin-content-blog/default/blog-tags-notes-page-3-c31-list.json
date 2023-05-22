@@ -2,9 +2,10 @@
   "permalink": "/blog/tags/notes/page/3",
   "page": 3,
   "postsPerPage": 10,
-  "totalPages": 3,
-  "totalCount": 30,
+  "totalPages": 4,
+  "totalCount": 31,
   "previousPage": "/blog/tags/notes/page/2",
+  "nextPage": "/blog/tags/notes/page/4",
   "blogDescription": "Blog",
   "blogTitle": "Blog"
 }

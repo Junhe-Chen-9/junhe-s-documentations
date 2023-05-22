@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'd7f'),
+    component: ComponentCreator('/blog', '048'),
     exact: true
   },
   {
@@ -128,6 +128,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/Leetcode 347',
+    component: ComponentCreator('/blog/Leetcode 347', '3bd'),
+    exact: true
+  },
+  {
     path: '/blog/Leetcode 399',
     component: ComponentCreator('/blog/Leetcode 399', '8e2'),
     exact: true
@@ -164,17 +169,17 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '4d5'),
+    component: ComponentCreator('/blog/page/2', 'fb9'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '907'),
+    component: ComponentCreator('/blog/page/3', 'edc'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', 'da4'),
+    component: ComponentCreator('/blog/page/4', '8c9'),
     exact: true
   },
   {
@@ -204,37 +209,47 @@ export default [
   },
   {
     path: '/blog/tags/leetcode',
-    component: ComponentCreator('/blog/tags/leetcode', 'e76'),
+    component: ComponentCreator('/blog/tags/leetcode', '5dc'),
     exact: true
   },
   {
     path: '/blog/tags/leetcode/page/2',
-    component: ComponentCreator('/blog/tags/leetcode/page/2', 'cd5'),
+    component: ComponentCreator('/blog/tags/leetcode/page/2', '1b8'),
     exact: true
   },
   {
     path: '/blog/tags/leetcode/page/3',
-    component: ComponentCreator('/blog/tags/leetcode/page/3', 'bd3'),
+    component: ComponentCreator('/blog/tags/leetcode/page/3', '194'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/leetcode/page/4',
+    component: ComponentCreator('/blog/tags/leetcode/page/4', 'f65'),
     exact: true
   },
   {
     path: '/blog/tags/notes',
-    component: ComponentCreator('/blog/tags/notes', '60b'),
+    component: ComponentCreator('/blog/tags/notes', '7a9'),
     exact: true
   },
   {
     path: '/blog/tags/notes/page/2',
-    component: ComponentCreator('/blog/tags/notes/page/2', '5c2'),
+    component: ComponentCreator('/blog/tags/notes/page/2', '3fb'),
     exact: true
   },
   {
     path: '/blog/tags/notes/page/3',
-    component: ComponentCreator('/blog/tags/notes/page/3', 'a4b'),
+    component: ComponentCreator('/blog/tags/notes/page/3', '9f0'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/notes/page/4',
+    component: ComponentCreator('/blog/tags/notes/page/4', '254'),
     exact: true
   },
   {
     path: '/blog/tags/weeklychallenge',
-    component: ComponentCreator('/blog/tags/weeklychallenge', '257'),
+    component: ComponentCreator('/blog/tags/weeklychallenge', 'e38'),
     exact: true
   },
   {
