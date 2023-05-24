@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Leetcode 2542",
+      "permalink": "/blog/Leetcode 2542"
+    },
+    {
       "title": "Leetcode 703",
       "permalink": "/blog/Leetcode 703"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Leetcode 785",
       "permalink": "/blog/Leetcode 785"
-    },
-    {
-      "title": "Leetcode 1557",
-      "permalink": "/blog/Leetcode 1557"
     }
   ]
 }

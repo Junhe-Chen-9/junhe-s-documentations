@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 2542",
+      "metadata": {
+        "permalink": "/blog/Leetcode 2542",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-23-Leet Code.md",
+        "source": "@site/blog/2023-05-23-Leet Code.md",
+        "title": "Leetcode 2542",
+        "description": "The apporach is simple, we want sum to be as big as possible, but more importantly our nums2(min) has to be bigger because it grows faster.",
+        "date": "2023-05-23T00:00:00.000Z",
+        "formattedDate": "May 23, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 1.085,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 2542",
+          "title": "Leetcode 2542",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 703",
+          "permalink": "/blog/Leetcode 703"
+        }
+      },
+      "content": "The apporach is simple, we want sum to be as big as possible, but more importantly our nums2(min) has to be bigger because it grows faster. \n\nSo we sort by nums2 at each index, we want to have our nums2 to be at max\n\nwe add all k item into the priority queue, and once we got the score, we want to make sure our score is actually good, so we want to keep going on nums2, while we polls the smallest from the nums1 and keep update items.\n\n```java\nclass Solution {\n    public long maxScore(int[] nums1, int[] nums2, int k) {\n        // we want nums2 be as big as possible \n        int n = nums1.length;\n        int[][] pairs = new int[n][2];\n        for(int i = 0; i < n; i ++){\n            pairs[i] = new int[]{nums1[i],nums2[i]};\n        }\n        Arrays.sort(pairs,(a,b) -> b[1] - a[1]); // we want to sort the pair by biggest in nums2\n        PriorityQueue<Integer> pq = new PriorityQueue<>(k,(a,b) -> a - b);\n        \n        long topK = 0;\n        for(int i = 0; i < k; i ++){\n            topK += pairs[i][0];\n            pq.add(pairs[i][0]);\n        }\n        // score \n        long res = topK * pairs[k - 1][1];\n\n        // slide all possiblity\n        for(int i = k; i < n; i ++){\n            topK += pairs[i][0] - pq.poll();\n            pq.add(pairs[i][0]);\n\n            res = Math.max(res,topK * pairs[i][1]);\n        }\n        return res;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 703",
       "metadata": {
         "permalink": "/blog/Leetcode 703",
@@ -46,6 +100,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 2542",
+          "permalink": "/blog/Leetcode 2542"
         },
         "nextItem": {
           "title": "Leetcode 347",
