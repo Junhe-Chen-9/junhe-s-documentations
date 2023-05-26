@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjunhe_s_documents=self.webpackChunkjunhe_s_documents||[]).push([[992],{1102:e=>{e.exports=JSON.parse('{"label":"weeklychallenge","permalink":"/blog/tags/weeklychallenge","allTagsPath":"/blog/tags","count":11}')}}]);
