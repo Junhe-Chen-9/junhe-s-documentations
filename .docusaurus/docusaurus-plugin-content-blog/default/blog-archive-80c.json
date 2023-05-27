@@ -1,6 +1,86 @@
 {
   "blogPosts": [
     {
+      "id": "/Code",
+      "metadata": {
+        "permalink": "/blog/Code",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/Code.md",
+        "source": "@site/blog/Code.md",
+        "title": "Code",
+        "description": "",
+        "date": "2023-05-27T00:54:06.304Z",
+        "formattedDate": "May 27, 2023",
+        "tags": [],
+        "readingTime": 0,
+        "hasTruncateMarker": false,
+        "authors": [],
+        "frontMatter": {},
+        "nextItem": {
+          "title": "Leetcode 1406",
+          "permalink": "/blog/Leetcode 1406"
+        }
+      },
+      "content": ""
+    },
+    {
+      "id": "Leetcode 1406",
+      "metadata": {
+        "permalink": "/blog/Leetcode 1406",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-26-Leet Code.md",
+        "source": "@site/blog/2023-05-26-Leet Code.md",
+        "title": "Leetcode 1406",
+        "description": "basica dp question calc score based on what you can get - what opponent can get.",
+        "date": "2023-05-26T00:00:00.000Z",
+        "formattedDate": "May 26, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 0.775,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 1406",
+          "title": "Leetcode 1406",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "prevItem": {
+          "title": "Code",
+          "permalink": "/blog/Code"
+        },
+        "nextItem": {
+          "title": "Leetcode 1140",
+          "permalink": "/blog/Leetcode 1140"
+        }
+      },
+      "content": "basica dp question calc score based on what you can get - what opponent can get.\n```java\nclass Solution {\n    Integer[] dp;\n    public String stoneGameIII(int[] stoneValue) {\n        int n = stoneValue.length;\n        dp = new Integer[n + 1];\n        int res = helper(stoneValue,0);\n        if(res > 0){\n            return \"Alice\";\n        }\n        if(res < 0){\n            return \"Bob\";\n        }\n        return \"Tie\";\n    }\n    private int helper(int[] stones, int curr){\n        // base case \n        if(curr == stones.length) return 0; // no more stone \n        if(dp[curr] != null) return dp[curr]; // solved case\n\n        // our socre is what we have - what opponent can have\n        int res = stones[curr] - helper(stones,curr + 1); \n        if(curr + 2 <= stones.length){\n            // we can take up to 2 stones\n            res = Math.max(res,stones[curr] + stones[curr + 1] - helper(stones,curr + 2));\n        }\n        if(curr + 3 <= stones.length){\n            res = Math.max(res,stones[curr] + stones[curr + 1] + stones[curr + 2] - helper(stones,curr + 3));\n        }\n        return dp[curr] = res;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 1140",
       "metadata": {
         "permalink": "/blog/Leetcode 1140",
@@ -46,6 +126,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 1406",
+          "permalink": "/blog/Leetcode 1406"
         },
         "nextItem": {
           "title": "Leetcode 2542",

@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Leetcode 1406",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-26-Leet Code.md",
+  "source": "@site/blog/2023-05-26-Leet Code.md",
+  "title": "Leetcode 1406",
+  "description": "basica dp question calc score based on what you can get - what opponent can get.",
+  "date": "2023-05-26T00:00:00.000Z",
+  "formattedDate": "May 26, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "weeklychallenge",
+      "permalink": "/blog/tags/weeklychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 0.775,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1406",
+    "title": "Leetcode 1406",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "weeklychallenge",
+      "notes"
+    ]
+  },
+  "prevItem": {
+    "title": "Code",
+    "permalink": "/blog/Code"
+  },
+  "nextItem": {
+    "title": "Leetcode 1140",
+    "permalink": "/blog/Leetcode 1140"
+  }
+}

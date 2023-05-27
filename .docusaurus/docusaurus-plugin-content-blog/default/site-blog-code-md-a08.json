@@ -1,0 +1,18 @@
+{
+  "permalink": "/blog/Code",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/Code.md",
+  "source": "@site/blog/Code.md",
+  "title": "Code",
+  "description": "",
+  "date": "2023-05-27T00:54:06.304Z",
+  "formattedDate": "May 27, 2023",
+  "tags": [],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "nextItem": {
+    "title": "Leetcode 1406",
+    "permalink": "/blog/Leetcode 1406"
+  }
+}
