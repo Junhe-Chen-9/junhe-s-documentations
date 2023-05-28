@@ -6,6 +6,10 @@
       "permalink": "/blog/Code"
     },
     {
+      "title": "Leetcode 1547",
+      "permalink": "/blog/Leetcode 1547"
+    },
+    {
       "title": "Leetcode 1406",
       "permalink": "/blog/Leetcode 1406"
     },
@@ -16,10 +20,6 @@
     {
       "title": "Leetcode 2542",
       "permalink": "/blog/Leetcode 2542"
-    },
-    {
-      "title": "Leetcode 703",
-      "permalink": "/blog/Leetcode 703"
     }
   ]
 }
