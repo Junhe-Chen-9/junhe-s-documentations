@@ -11,6 +11,10 @@
   "hasTruncateMarker": false,
   "authors": [],
   "frontMatter": {},
+  "prevItem": {
+    "title": "Leetcode 1603",
+    "permalink": "/blog/Leetcode 1603"
+  },
   "nextItem": {
     "title": "Leetcode 1547",
     "permalink": "/blog/Leetcode 1547"

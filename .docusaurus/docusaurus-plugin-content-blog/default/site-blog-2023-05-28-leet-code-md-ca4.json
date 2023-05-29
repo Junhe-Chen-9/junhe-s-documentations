@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Leetcode 1603",
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-28-Leet Code.md",
+  "source": "@site/blog/2023-05-28-Leet Code.md",
+  "title": "Leetcode 1603",
+  "description": "Easy question , you can use three int variable or array is faster and easier.",
+  "date": "2023-05-28T00:00:00.000Z",
+  "formattedDate": "May 28, 2023",
+  "tags": [
+    {
+      "label": "leetcode",
+      "permalink": "/blog/tags/leetcode"
+    },
+    {
+      "label": "weeklychallenge",
+      "permalink": "/blog/tags/weeklychallenge"
+    },
+    {
+      "label": "notes",
+      "permalink": "/blog/tags/notes"
+    }
+  ],
+  "readingTime": 1.09,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Junhe Chen",
+      "title": "Software Developer",
+      "url": "https://bio.junhechen.com",
+      "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+      "key": "junhechen"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Leetcode 1603",
+    "title": "Leetcode 1603",
+    "authors": [
+      "junhechen"
+    ],
+    "tags": [
+      "leetcode",
+      "weeklychallenge",
+      "notes"
+    ]
+  },
+  "nextItem": {
+    "title": "Code",
+    "permalink": "/blog/Code"
+  }
+}

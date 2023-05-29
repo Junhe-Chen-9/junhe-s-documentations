@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 1603",
+      "metadata": {
+        "permalink": "/blog/Leetcode 1603",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-28-Leet Code.md",
+        "source": "@site/blog/2023-05-28-Leet Code.md",
+        "title": "Leetcode 1603",
+        "description": "Easy question , you can use three int variable or array is faster and easier.",
+        "date": "2023-05-28T00:00:00.000Z",
+        "formattedDate": "May 28, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 1.09,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 1603",
+          "title": "Leetcode 1603",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Code",
+          "permalink": "/blog/Code"
+        }
+      },
+      "content": "Easy question , you can use three int variable or array is faster and easier.\n\n```java\nclass ParkingSystem {\n    int[] lot;\n    public ParkingSystem(int big, int medium, int small) {\n        lot = new int[]{big,medium,small};\n    }\n    \n    public boolean addCar(int carType) {\n        if(lot[carType - 1] == 0) return false;\n        lot[carType - 1] --;\n        return true;\n    }\n}\n```\n### 348 ###\n\n```java\nclass TicTacToe {\n    int[] rows,cols;\n    int diagonal,antiDiagonal;\n\n    public TicTacToe(int n) {\n        rows = new int[n];\n        cols = new int[n];\n        diagonal = 0;\n        antiDiagonal = 0;    \n    }\n    \n    public int move(int row, int col, int player) {\n        int n = rows.length;\n        // determine the mark by player \n        int mark = (player == 1) ? 1 : -1;\n        // mark the row and col \n        rows[row] += mark;\n        cols[col] += mark;\n        // mark the diagonal or antiDiagonal if applies\n        if(row == col) diagonal += mark;\n        if(col == (n - row - 1)) antiDiagonal += mark;\n        // if any row or col scores n that means our new mark connected a row col diagonal or antiDiagonal;\n        if(Math.abs(rows[row]) == n|| Math.abs(cols[col]) == n || Math.abs(diagonal) == n || Math.abs(antiDiagonal)  == n) return player;\n        // no winer\n        return 0;\n    }\n}\n\n/**\n * Your TicTacToe object will be instantiated and called as such:\n * TicTacToe obj = new TicTacToe(n);\n * int param_1 = obj.move(row,col,player);\n */\n```"
+    },
+    {
       "id": "/Code",
       "metadata": {
         "permalink": "/blog/Code",
@@ -15,6 +69,10 @@
         "hasTruncateMarker": false,
         "authors": [],
         "frontMatter": {},
+        "prevItem": {
+          "title": "Leetcode 1603",
+          "permalink": "/blog/Leetcode 1603"
+        },
         "nextItem": {
           "title": "Leetcode 1547",
           "permalink": "/blog/Leetcode 1547"
