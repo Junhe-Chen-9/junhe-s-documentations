@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 1396",
+      "metadata": {
+        "permalink": "/blog/Leetcode 1396",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-05-30-Leet Code.md",
+        "source": "@site/blog/2023-05-30-Leet Code.md",
+        "title": "Leetcode 1396",
+        "description": "",
+        "date": "2023-05-30T00:00:00.000Z",
+        "formattedDate": "May 30, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 0.915,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 1396",
+          "title": "Leetcode 1396",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 1603",
+          "permalink": "/blog/Leetcode 1603"
+        }
+      },
+      "content": "```java\nclass UndergroundSystem {\n    HashMap<Integer,Pair<String,Integer>> checkIn;\n    HashMap<String,Pair<Double,Integer>> log;\n    public UndergroundSystem() {\n        checkIn = new HashMap<>();\n        log = new HashMap<>();\n    }\n    \n    public void checkIn(int id, String stationName, int t) {\n        // check in the customer \n        checkIn.putIfAbsent(id,new Pair<>(stationName,t));\n    }\n    \n    public void checkOut(int id, String stationName, int t) {\n        Pair<String,Integer> info = checkIn.get(id);\n        String startStation = info.getKey();\n        int startTime = info.getValue();\n        String route = startStation + \"->\" + stationName;\n        double tripTime = t - startTime;\n\n        if(log.containsKey(route)){\n            double loggedTime = log.get(route).getKey();\n            int loggedTrip = log.get(route).getValue();\n            log.put(route,new Pair<>(tripTime + loggedTime, loggedTrip + 1));\n        }else{\n            log.put(route,new Pair<>(tripTime,1));\n        }\n        // remove the entry\n        checkIn.remove(id);\n    }\n    \n    public double getAverageTime(String startStation, String endStation) {\n        // Lookup how many times this journey has been made, and the total time.\n        String routeKey = startStation + \"->\" + endStation;\n        Double totalTime = log.get(routeKey).getKey();\n        int totalTrips = log.get(routeKey).getValue();\n        // The average is simply the total divided by the number of trips.\n        return totalTime / totalTrips;\n    }\n}\n\n/**\n * Your UndergroundSystem object will be instantiated and called as such:\n * UndergroundSystem obj = new UndergroundSystem();\n * obj.checkIn(id,stationName,t);\n * obj.checkOut(id,stationName,t);\n * double param_3 = obj.getAverageTime(startStation,endStation);\n */\n```"
+    },
+    {
       "id": "Leetcode 1603",
       "metadata": {
         "permalink": "/blog/Leetcode 1603",
@@ -46,6 +100,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 1396",
+          "permalink": "/blog/Leetcode 1396"
         },
         "nextItem": {
           "title": "Code",
