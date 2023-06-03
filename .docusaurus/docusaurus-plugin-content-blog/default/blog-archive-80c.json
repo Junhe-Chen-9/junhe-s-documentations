@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Leetcode 1376",
+      "metadata": {
+        "permalink": "/blog/Leetcode 1376",
+        "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/blog/2023-06-02-LeetCode.md",
+        "source": "@site/blog/2023-06-02-LeetCode.md",
+        "title": "Leetcode 1376",
+        "description": "// for this question we know it is tree structure so we dont need visited array, simply go down the tree would be good.",
+        "date": "2023-06-02T00:00:00.000Z",
+        "formattedDate": "June 2, 2023",
+        "tags": [
+          {
+            "label": "leetcode",
+            "permalink": "/blog/tags/leetcode"
+          },
+          {
+            "label": "weeklychallenge",
+            "permalink": "/blog/tags/weeklychallenge"
+          },
+          {
+            "label": "notes",
+            "permalink": "/blog/tags/notes"
+          }
+        ],
+        "readingTime": 0.575,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Junhe Chen",
+            "title": "Software Developer",
+            "url": "https://bio.junhechen.com",
+            "imageURL": "https://bio.junhechen.com/assets/IMG_0001.jpeg",
+            "key": "junhechen"
+          }
+        ],
+        "frontMatter": {
+          "slug": "Leetcode 1376",
+          "title": "Leetcode 1376",
+          "authors": [
+            "junhechen"
+          ],
+          "tags": [
+            "leetcode",
+            "weeklychallenge",
+            "notes"
+          ]
+        },
+        "nextItem": {
+          "title": "Leetcode 2101",
+          "permalink": "/blog/Leetcode 2101"
+        }
+      },
+      "content": "// for this question we know it is tree structure so we dont need visited array, simply go down the tree would be good.\n\n```java\nclass Solution {\n    public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {\n        // build the graph \n        List<List<Integer>> graph = new ArrayList<>();\n        for(int i = 0; i < n; i ++){\n            graph.add(new ArrayList<>());\n        }\n\n        for(int i = 0; i < n; i ++){\n            if (manager[i] != -1) {\n                graph.get(manager[i]).add(i);\n            }\n        }\n\n        // do the bfs\n        Queue<int[]> q = new LinkedList<>();\n        q.add(new int[]{headID,informTime[headID]});\n        int res = 0;\n        while(!q.isEmpty()){\n            int[] curr = q.poll();\n            res = Math.max(res,curr[1]);\n            for(int next : graph.get(curr[0])){\n                q.add(new int[]{next,curr[1] + informTime[next]});\n            }\n        }\n        return res;\n    }\n}\n```"
+    },
+    {
       "id": "Leetcode 2101",
       "metadata": {
         "permalink": "/blog/Leetcode 2101",
@@ -46,6 +100,10 @@
             "weeklychallenge",
             "notes"
           ]
+        },
+        "prevItem": {
+          "title": "Leetcode 1376",
+          "permalink": "/blog/Leetcode 1376"
         },
         "nextItem": {
           "title": "Leetcode 1396",
