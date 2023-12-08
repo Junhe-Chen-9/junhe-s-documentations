@@ -344,7 +344,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '22b'),
+    component: ComponentCreator('/', 'e25'),
     routes: [
       {
         path: '/',
@@ -359,8 +359,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/MS Azure/',
-        component: ComponentCreator('/MS Azure/', '599'),
+        path: '/MS Azure/Azure',
+        component: ComponentCreator('/MS Azure/Azure', 'e3a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/MS Azure/Cloud computing',
+        component: ComponentCreator('/MS Azure/Cloud computing', 'e24'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

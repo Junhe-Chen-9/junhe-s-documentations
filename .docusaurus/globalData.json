@@ -16,8 +16,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "MS Azure/index",
-              "path": "/MS Azure/",
+              "id": "MS Azure/Azure",
+              "path": "/MS Azure/Azure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "MS Azure/Cloud computing",
+              "path": "/MS Azure/Cloud computing",
               "sidebar": "tutorialSidebar"
             },
             {

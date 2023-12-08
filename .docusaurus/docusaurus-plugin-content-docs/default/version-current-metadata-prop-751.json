@@ -23,9 +23,15 @@
         "items": [
           {
             "type": "link",
-            "label": "index",
-            "href": "/MS Azure/",
-            "docId": "MS Azure/index"
+            "label": "Azure",
+            "href": "/MS Azure/Azure",
+            "docId": "MS Azure/Azure"
+          },
+          {
+            "type": "link",
+            "label": "Cloud computing",
+            "href": "/MS Azure/Cloud computing",
+            "docId": "MS Azure/Cloud computing"
           }
         ],
         "href": "/category/ms-azure"
@@ -39,9 +45,15 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "MS Azure/index": {
-      "id": "MS Azure/index",
-      "title": "index",
+    "MS Azure/Azure": {
+      "id": "MS Azure/Azure",
+      "title": "Azure",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "MS Azure/Cloud computing": {
+      "id": "MS Azure/Cloud computing",
+      "title": "Cloud computing",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     }

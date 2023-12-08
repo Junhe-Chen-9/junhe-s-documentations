@@ -1,0 +1,24 @@
+{
+  "unversionedId": "MS Azure/cloudcomputing",
+  "id": "MS Azure/cloudcomputing",
+  "title": "cloudcomputing",
+  "description": "Cloud computing",
+  "source": "@site/docs/MS Azure/cloudcomputing.md",
+  "sourceDirName": "MS Azure",
+  "slug": "/MS Azure/cloudcomputing",
+  "permalink": "/MS Azure/cloudcomputing",
+  "draft": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/MS Azure/cloudcomputing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MS Azure",
+    "permalink": "/category/ms-azure"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/MS Azure/"
+  }
+}

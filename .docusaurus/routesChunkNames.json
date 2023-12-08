@@ -1112,7 +1112,7 @@
     },
     "content": "393be207"
   },
-  "/-22b": {
+  "/-e25": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "4bd98c59"
@@ -1127,8 +1127,12 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "32c6a4d0"
   },
-  "/MS Azure/-599": {
+  "/MS Azure/Azure-e3a": {
     "__comp": "17896441",
-    "content": "63a0570e"
+    "content": "42fbc0ec"
+  },
+  "/MS Azure/Cloud computing-e24": {
+    "__comp": "17896441",
+    "content": "81ca7d60"
   }
 }
