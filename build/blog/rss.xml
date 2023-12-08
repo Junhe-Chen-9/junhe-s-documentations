@@ -4,10 +4,21 @@
         <title>Junhe Chen' Documentations Blog</title>
         <link>https://docs.junhechen.com/blog</link>
         <description>Junhe Chen' Documentations Blog</description>
-        <lastBuildDate>Tue, 06 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Leetcode 1150]]></title>
+            <link>https://docs.junhechen.com/blog/Leetcode 1150</link>
+            <guid>https://docs.junhechen.com/blog/Leetcode 1150</guid>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[binary search left bound and right bound]]></description>
+            <content:encoded><![CDATA[<p>binary search left bound and right bound</p><div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">class Solution {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    public boolean isMajorityElement(int[] nums, int target) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // search left </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        int left = 0, right = nums.length - 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        while(left &lt;= right){</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            int pivot = left + (right - left) / 2;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            if(nums[pivot] &gt;= target){</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                // we shrink to left </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                right = pivot - 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }else{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                // it is too small</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                left = pivot + 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        int p1 = left;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        left = 0; right = nums.length - 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // find right boundry</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        while(left &lt;= right){</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            int pivot = left + (right - left) / 2;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            if(nums[pivot] &gt; target){</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                // we shrink to left </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                right = pivot - 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }else{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                // it is too small</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                left = pivot + 1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        int p2 = right;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return p2 - p1 + 1 &gt; nums.length /2;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+            <category>leetcode</category>
+            <category>weeklychallenge</category>
+            <category>notes</category>
+        </item>
         <item>
             <title><![CDATA[Leetcode 1318]]></title>
             <link>https://docs.junhechen.com/blog/Leetcode 1318</link>
@@ -61,12 +72,6 @@
             <category>leetcode</category>
             <category>weeklychallenge</category>
             <category>notes</category>
-        </item>
-        <item>
-            <title><![CDATA[Code]]></title>
-            <link>https://docs.junhechen.com/blog/Code</link>
-            <guid>https://docs.junhechen.com/blog/Code</guid>
-            <pubDate>Sat, 27 May 2023 00:54:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Leetcode 1547]]></title>
@@ -431,6 +436,12 @@ Use a running curr to keep track of smallest number and priority queue to keep t
             <category>leetcode</category>
             <category>dailychallenge</category>
             <category>notes</category>
+        </item>
+        <item>
+            <title><![CDATA[Code]]></title>
+            <link>https://docs.junhechen.com/blog/Code</link>
+            <guid>https://docs.junhechen.com/blog/Code</guid>
+            <pubDate>Sat, 22 Apr 2023 00:33:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Leetcode 1416]]></title>

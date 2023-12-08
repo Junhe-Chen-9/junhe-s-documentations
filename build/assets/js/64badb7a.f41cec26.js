@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjunhe_s_documents=self.webpackChunkjunhe_s_documents||[]).push([[2999],{9230:e=>{e.exports=JSON.parse('{"title":"MS_Azure","slug":"/category/ms_azure","permalink":"/category/ms_azure","navigation":{"previous":{"title":"Introduction","permalink":"/"},"next":{"title":"index","permalink":"/MS Azure/"}}}')}}]);

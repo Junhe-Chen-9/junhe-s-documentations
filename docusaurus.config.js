@@ -84,7 +84,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://www.linkedin.com/in/junhe-chen-a81201219/',
+            href: 'https://www.linkedin.com/in/junhechen423/',
             label: 'LinkedIn',
             position: 'right',
           },
@@ -101,17 +101,10 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Projects',
-                to: '/category/projects',
+                label: 'MS Azure',
+                to: '/category/MS_Azure',
               },
-              {
-                label: 'Machine Learning',
-                to: '/category/machine-learning',
-              },
-              {
-                label: 'Home Lab',
-                to: '/category/home-lab',
-              },
+              
             ],
           },
           {
@@ -133,7 +126,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/junhe-chen-a81201219/',
+                href: 'https://www.linkedin.com/in/junhechen423/',
               }
             ],
           },
