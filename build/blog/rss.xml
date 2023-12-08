@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Junhe Chen' Documentations Blog</title>
+        <title>JC(Junhe) Chen Blog</title>
         <link>https://docs.junhechen.com/blog</link>
-        <description>Junhe Chen' Documentations Blog</description>
+        <description>JC(Junhe) Chen Blog</description>
         <lastBuildDate>Wed, 07 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

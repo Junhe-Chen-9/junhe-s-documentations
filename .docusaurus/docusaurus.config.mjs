@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Junhe Chen' Documentations",
-  "tagline": "Dinosaurs are cool",
+  "title": "JC(Junhe) Chen",
+  "tagline": "Junhe are cool",
   "favicon": "img/icon.jpeg",
   "url": "https://docs.junhechen.com",
   "baseUrl": "/",

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Junhe Chen\' Documentations',
-  tagline: 'Dinosaurs are cool',
+  title: 'JC(Junhe) Chen',
+  tagline: 'Junhe are cool',
   favicon: 'img/icon.jpeg',
 
   // Set the production url of your site here
