@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'MS Azure',
-                to: '/category/MS_Azure',
+                to: '/category/ms-azure',
               },
               
             ],
