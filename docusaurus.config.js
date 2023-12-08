@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.png',
       navbar: {
-        title: 'Junhe Chen Documentation',
+        title: 'Junhe Chen',
         logo: {
           alt: 'Junhe Chen Logo',
           src: 'img/junhe-chen-logo.jpg',
@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Junhe Chen. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Junhe Chen.`,
       },
       prism: {
         theme: lightCodeTheme,

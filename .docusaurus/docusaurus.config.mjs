@@ -43,7 +43,7 @@ export default {
   "themeConfig": {
     "image": "img/social-card.png",
     "navbar": {
-      "title": "Junhe Chen Documentation",
+      "title": "Junhe Chen",
       "logo": {
         "alt": "Junhe Chen Logo",
         "src": "img/junhe-chen-logo.jpg"
@@ -115,7 +115,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Junhe Chen. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Junhe Chen."
     },
     "prism": {
       "theme": {
