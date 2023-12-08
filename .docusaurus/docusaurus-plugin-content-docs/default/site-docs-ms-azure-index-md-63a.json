@@ -1,0 +1,20 @@
+{
+  "unversionedId": "MS Azure/index",
+  "id": "MS Azure/index",
+  "title": "index",
+  "description": "Introduction",
+  "source": "@site/docs/MS Azure/index.md",
+  "sourceDirName": "MS Azure",
+  "slug": "/MS Azure/",
+  "permalink": "/MS Azure/",
+  "draft": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/MS Azure/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MS Azure",
+    "permalink": "/category/ms-azure"
+  }
+}

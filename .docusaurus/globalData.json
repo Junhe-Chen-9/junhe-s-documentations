@@ -11,38 +11,18 @@
           "mainDocId": "Introduction",
           "docs": [
             {
-              "id": "hl/Proxmox",
-              "path": "/hl/Proxmox",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Introduction",
               "path": "/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ml/Fundamental Concepts In Machine Learning",
-              "path": "/ml/Fundamental Concepts In Machine Learning",
+              "id": "MS Azure/index",
+              "path": "/MS Azure/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "projects/Index",
-              "path": "/projects/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/projects",
-              "path": "/category/projects",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/machine-learning",
-              "path": "/category/machine-learning",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/home-lab",
-              "path": "/category/home-lab",
+              "id": "/category/ms-azure",
+              "path": "/category/ms-azure",
               "sidebar": "tutorialSidebar"
             }
           ],

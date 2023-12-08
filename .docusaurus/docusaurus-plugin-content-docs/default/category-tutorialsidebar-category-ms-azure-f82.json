@@ -1,0 +1,15 @@
+{
+  "title": "MS Azure",
+  "slug": "/category/ms-azure",
+  "permalink": "/category/ms-azure",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "index",
+      "permalink": "/MS Azure/"
+    }
+  }
+}

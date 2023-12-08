@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/var/www/docs.junhechen.com/junhe-s-documentations/sidebars.js",
+          "sidebarPath": "/Users/junhechen/Desktop/Repos/junhe-s-documentations/sidebars.js",
           "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main"
         },
         "theme": {
-          "customCss": "/var/www/docs.junhechen.com/junhe-s-documentations/src/css/custom.css"
+          "customCss": "/Users/junhechen/Desktop/Repos/junhe-s-documentations/src/css/custom.css"
         }
       }
     ]
@@ -66,7 +66,7 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://www.linkedin.com/in/junhe-chen-a81201219/",
+          "href": "https://www.linkedin.com/in/junhechen423/",
           "label": "LinkedIn",
           "position": "right"
         }
@@ -84,16 +84,8 @@ export default {
               "to": "/"
             },
             {
-              "label": "Projects",
-              "to": "/category/projects"
-            },
-            {
-              "label": "Machine Learning",
-              "to": "/category/machine-learning"
-            },
-            {
-              "label": "Home Lab",
-              "to": "/category/home-lab"
+              "label": "MS Azure",
+              "to": "/category/ms-azure"
             }
           ]
         },
@@ -118,7 +110,7 @@ export default {
             },
             {
               "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/junhe-chen-a81201219/"
+              "href": "https://www.linkedin.com/in/junhechen423/"
             }
           ]
         }

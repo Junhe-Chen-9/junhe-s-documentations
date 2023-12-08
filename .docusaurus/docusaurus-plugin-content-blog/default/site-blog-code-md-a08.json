@@ -4,19 +4,19 @@
   "source": "@site/blog/Code.md",
   "title": "Code",
   "description": "",
-  "date": "2023-05-27T00:54:06.304Z",
-  "formattedDate": "May 27, 2023",
+  "date": "2023-04-22T00:33:50.000Z",
+  "formattedDate": "April 22, 2023",
   "tags": [],
   "readingTime": 0,
   "hasTruncateMarker": false,
   "authors": [],
   "frontMatter": {},
   "prevItem": {
-    "title": "Leetcode 1603",
-    "permalink": "/blog/Leetcode 1603"
+    "title": "Leetcode 1046",
+    "permalink": "/blog/Leetcode 1046"
   },
   "nextItem": {
-    "title": "Leetcode 1547",
-    "permalink": "/blog/Leetcode 1547"
+    "title": "Leetcode 1416",
+    "permalink": "/blog/Leetcode 1416"
   }
 }

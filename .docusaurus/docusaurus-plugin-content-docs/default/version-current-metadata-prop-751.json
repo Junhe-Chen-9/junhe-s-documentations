@@ -17,74 +17,32 @@
       },
       {
         "type": "category",
-        "label": "Projects",
+        "label": "MS Azure",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Index",
-            "href": "/projects/",
-            "docId": "projects/Index"
+            "label": "index",
+            "href": "/MS Azure/",
+            "docId": "MS Azure/index"
           }
         ],
-        "href": "/category/projects"
-      },
-      {
-        "type": "category",
-        "label": "Machine Learning",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Fundamental Concepts In Machine Learning",
-            "href": "/ml/Fundamental Concepts In Machine Learning",
-            "docId": "ml/Fundamental Concepts In Machine Learning"
-          }
-        ],
-        "href": "/category/machine-learning"
-      },
-      {
-        "type": "category",
-        "label": "Home Lab",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Proxmox",
-            "href": "/hl/Proxmox",
-            "docId": "hl/Proxmox"
-          }
-        ],
-        "href": "/category/home-lab"
+        "href": "/category/ms-azure"
       }
     ]
   },
   "docs": {
-    "hl/Proxmox": {
-      "id": "hl/Proxmox",
-      "title": "Proxmox",
-      "description": "TO BE UPDATED",
-      "sidebar": "tutorialSidebar"
-    },
     "Introduction": {
       "id": "Introduction",
       "title": "Introduction",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "ml/Fundamental Concepts In Machine Learning": {
-      "id": "ml/Fundamental Concepts In Machine Learning",
-      "title": "Fundamental Concepts In Machine Learning",
-      "description": "Main Ideas",
-      "sidebar": "tutorialSidebar"
-    },
-    "projects/Index": {
-      "id": "projects/Index",
-      "title": "Index",
-      "description": "Full Stack Projects",
+    "MS Azure/index": {
+      "id": "MS Azure/index",
+      "title": "index",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     }
   }
