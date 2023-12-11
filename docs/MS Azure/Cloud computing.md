@@ -37,4 +37,5 @@ The responsibility is now between the cloud provider and consumer. Cloud provide
 
 ![MS Azure responsibilities between IaaS, PaaS, Saas](https://learn.microsoft.com/en-us/training/wwl-azure/describe-cloud-compute/media/shared-responsibility-b3829bfe.svg)
 
-### Define cloud models
+### Define cloud model
+
