@@ -12,3 +12,7 @@ Here you will find all the documentation for myself, and my notes studying Compu
 If you see something that needs to be fixed, or you have suggestions, feel free to open an issue or PR pressing edit page.
 
 If you found this documentation site helpful, please help to make it better. Thank you for your consideration and for visiting!
+
+Best,
+
+JC
