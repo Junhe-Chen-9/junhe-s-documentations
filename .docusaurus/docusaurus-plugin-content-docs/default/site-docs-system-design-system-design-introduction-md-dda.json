@@ -1,0 +1,24 @@
+{
+  "id": "System Design/System Design Introduction",
+  "title": "Introduction",
+  "description": "Application can be big and complex system, it is a collection of systems, some can be large for example it can be handling all the key functionality and some can be as small as counting the traffics. There are sophisticated distrubuted systems behinds each of the functions. Every small feature can be huge problem and to be sure application runs at large scale smoothly we need to have a good architectures. Advanced distributed system is needed for a lot of simple tasks.",
+  "source": "@site/docs/System Design/System Design Introduction.md",
+  "sourceDirName": "System Design",
+  "slug": "/System Design/System Design Introduction",
+  "permalink": "/System Design/System Design Introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/System Design/System Design Introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Important System Design Questions",
+    "permalink": "/System Design/Important System Design Questions"
+  },
+  "next": {
+    "title": "MS Azure",
+    "permalink": "/category/ms-azure"
+  }
+}

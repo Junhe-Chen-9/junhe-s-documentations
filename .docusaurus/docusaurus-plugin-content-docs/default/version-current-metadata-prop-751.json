@@ -13,7 +13,31 @@
         "type": "link",
         "label": "Introduction",
         "href": "/",
-        "docId": "Introduction"
+        "docId": "Introduction",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "System Design",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Important System Design Questions",
+            "href": "/System Design/Important System Design Questions",
+            "docId": "System Design/Important System Design Questions",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/System Design/System Design Introduction",
+            "docId": "System Design/System Design Introduction",
+            "unlisted": false
+          }
+        ],
+        "href": "/category/system-design"
       },
       {
         "type": "category",
@@ -25,13 +49,15 @@
             "type": "link",
             "label": "Azure",
             "href": "/MS Azure/Azure",
-            "docId": "MS Azure/Azure"
+            "docId": "MS Azure/Azure",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Cloud computing",
             "href": "/MS Azure/Cloud computing",
-            "docId": "MS Azure/Cloud computing"
+            "docId": "MS Azure/Cloud computing",
+            "unlisted": false
           }
         ],
         "href": "/category/ms-azure"
@@ -42,7 +68,7 @@
     "Introduction": {
       "id": "Introduction",
       "title": "Introduction",
-      "description": "Introduction",
+      "description": "Introduction ##",
       "sidebar": "tutorialSidebar"
     },
     "MS Azure/Azure": {
@@ -55,6 +81,18 @@
       "id": "MS Azure/Cloud computing",
       "title": "Cloud computing",
       "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "System Design/Important System Design Questions": {
+      "id": "System Design/Important System Design Questions",
+      "title": "Important System Design Questions",
+      "description": "Key requirements",
+      "sidebar": "tutorialSidebar"
+    },
+    "System Design/System Design Introduction": {
+      "id": "System Design/System Design Introduction",
+      "title": "Introduction",
+      "description": "Application can be big and complex system, it is a collection of systems, some can be large for example it can be handling all the key functionality and some can be as small as counting the traffics. There are sophisticated distrubuted systems behinds each of the functions. Every small feature can be huge problem and to be sure application runs at large scale smoothly we need to have a good architectures. Advanced distributed system is needed for a lot of simple tasks.",
       "sidebar": "tutorialSidebar"
     }
   }

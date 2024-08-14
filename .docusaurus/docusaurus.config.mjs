@@ -115,7 +115,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Junhe Chen."
+      "copyright": "Copyright © 2024 Junhe Chen."
     },
     "prism": {
       "theme": {
@@ -354,6 +354,12 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {
-    "mermaid": false
+    "format": "mdx",
+    "mermaid": false,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    }
   }
 };

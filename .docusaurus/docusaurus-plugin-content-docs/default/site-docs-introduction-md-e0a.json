@@ -1,13 +1,13 @@
 {
-  "unversionedId": "Introduction",
   "id": "Introduction",
   "title": "Introduction",
-  "description": "Introduction",
+  "description": "Introduction ##",
   "source": "@site/docs/Introduction.md",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/Introduction.md",
   "tags": [],
   "version": "current",
@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "MS Azure",
-    "permalink": "/category/ms-azure"
+    "title": "System Design",
+    "permalink": "/category/system-design"
   }
 }

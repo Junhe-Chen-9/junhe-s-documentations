@@ -344,31 +344,61 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'e25'),
+    component: ComponentCreator('/', 'c23'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '96f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/category/ms-azure',
-        component: ComponentCreator('/category/ms-azure', '4a8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/MS Azure/Azure',
-        component: ComponentCreator('/MS Azure/Azure', 'e3a'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/MS Azure/Cloud computing',
-        component: ComponentCreator('/MS Azure/Cloud computing', 'e24'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/', '1c2'),
+        routes: [
+          {
+            path: '/',
+            component: ComponentCreator('/', '14a'),
+            routes: [
+              {
+                path: '/category/ms-azure',
+                component: ComponentCreator('/category/ms-azure', '4a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/system-design',
+                component: ComponentCreator('/category/system-design', 'e22'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/MS Azure/Azure',
+                component: ComponentCreator('/MS Azure/Azure', 'e3a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/MS Azure/Cloud computing',
+                component: ComponentCreator('/MS Azure/Cloud computing', 'e24'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/System Design/Important System Design Questions',
+                component: ComponentCreator('/System Design/Important System Design Questions', '96f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/System Design/System Design Introduction',
+                component: ComponentCreator('/System Design/System Design Introduction', '04a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/',
+                component: ComponentCreator('/', '96f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

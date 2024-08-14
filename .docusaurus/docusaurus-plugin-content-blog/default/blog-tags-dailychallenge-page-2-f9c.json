@@ -2,5 +2,6 @@
   "label": "dailychallenge",
   "permalink": "/blog/tags/dailychallenge",
   "allTagsPath": "/blog/tags",
-  "count": 22
+  "count": 22,
+  "unlisted": false
 }

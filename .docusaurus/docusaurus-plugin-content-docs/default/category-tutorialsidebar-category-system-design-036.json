@@ -1,0 +1,15 @@
+{
+  "title": "System Design",
+  "slug": "/category/system-design",
+  "permalink": "/category/system-design",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "Important System Design Questions",
+      "permalink": "/System Design/Important System Design Questions"
+    }
+  }
+}

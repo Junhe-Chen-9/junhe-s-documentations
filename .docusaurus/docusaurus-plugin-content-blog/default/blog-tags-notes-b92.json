@@ -2,5 +2,6 @@
   "label": "notes",
   "permalink": "/blog/tags/notes",
   "allTagsPath": "/blog/tags",
-  "count": 42
+  "count": 42,
+  "unlisted": false
 }

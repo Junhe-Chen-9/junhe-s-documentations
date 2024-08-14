@@ -26,6 +26,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "System Design/Important System Design Questions",
+              "path": "/System Design/Important System Design Questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "System Design/System Design Introduction",
+              "path": "/System Design/System Design Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/system-design",
+              "path": "/category/system-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/ms-azure",
               "path": "/category/ms-azure",
               "sidebar": "tutorialSidebar"

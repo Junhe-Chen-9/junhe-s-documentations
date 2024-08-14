@@ -1,5 +1,4 @@
 {
-  "unversionedId": "MS Azure/Azure",
   "id": "MS Azure/Azure",
   "title": "Azure",
   "description": "Introduction",
@@ -8,6 +7,7 @@
   "slug": "/MS Azure/Azure",
   "permalink": "/MS Azure/Azure",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/MS Azure/Azure.md",
   "tags": [],
   "version": "current",

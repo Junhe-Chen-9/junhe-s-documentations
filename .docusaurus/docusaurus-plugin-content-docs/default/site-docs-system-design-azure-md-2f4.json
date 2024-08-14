@@ -1,0 +1,24 @@
+{
+  "id": "System Design/Azure",
+  "title": "Azure",
+  "description": "Introduction",
+  "source": "@site/docs/System Design/Azure.md",
+  "sourceDirName": "System Design",
+  "slug": "/System Design/Azure",
+  "permalink": "/System Design/Azure",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/System Design/Azure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Design",
+    "permalink": "/category/system-design"
+  },
+  "next": {
+    "title": "MS Azure",
+    "permalink": "/category/ms-azure"
+  }
+}

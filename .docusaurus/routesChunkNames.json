@@ -1112,20 +1112,26 @@
     },
     "content": "393be207"
   },
-  "/-e25": {
-    "__comp": "1be78505",
+  "/-c23": {
+    "__comp": "5e95c892",
     "__context": {
       "plugin": "4bd98c59"
-    },
-    "versionMetadata": "935f2afb"
+    }
   },
-  "/-96f": {
-    "__comp": "17896441",
-    "content": "e0a19902"
+  "/-1c2": {
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
+  },
+  "/-14a": {
+    "__comp": "a94703ab"
   },
   "/category/ms-azure-4a8": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "32c6a4d0"
+  },
+  "/category/system-design-e22": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "99b1c997"
   },
   "/MS Azure/Azure-e3a": {
     "__comp": "17896441",
@@ -1134,5 +1140,17 @@
   "/MS Azure/Cloud computing-e24": {
     "__comp": "17896441",
     "content": "81ca7d60"
+  },
+  "/System Design/Important System Design Questions-96f": {
+    "__comp": "17896441",
+    "content": "6087a0fb"
+  },
+  "/System Design/System Design Introduction-04a": {
+    "__comp": "17896441",
+    "content": "dda36905"
+  },
+  "/-96f": {
+    "__comp": "17896441",
+    "content": "e0a19902"
   }
 }

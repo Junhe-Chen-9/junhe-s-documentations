@@ -43,6 +43,7 @@
       "notes"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Leetcode 24",
     "permalink": "/blog/Leetcode 24"

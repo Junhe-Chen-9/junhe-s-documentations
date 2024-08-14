@@ -1,0 +1,24 @@
+{
+  "id": "System Design/Important System Design Questions",
+  "title": "Important System Design Questions",
+  "description": "Key requirements",
+  "source": "@site/docs/System Design/Important System Design Questions.md",
+  "sourceDirName": "System Design",
+  "slug": "/System Design/Important System Design Questions",
+  "permalink": "/System Design/Important System Design Questions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/System Design/Important System Design Questions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Design",
+    "permalink": "/category/system-design"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/System Design/System Design Introduction"
+  }
+}

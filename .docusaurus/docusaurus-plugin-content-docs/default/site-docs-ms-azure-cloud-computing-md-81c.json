@@ -1,5 +1,4 @@
 {
-  "unversionedId": "MS Azure/Cloud computing",
   "id": "MS Azure/Cloud computing",
   "title": "Cloud computing",
   "description": "Introduction",
@@ -8,6 +7,7 @@
   "slug": "/MS Azure/Cloud computing",
   "permalink": "/MS Azure/Cloud computing",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Junhe-Chen-9/junhe-s-documentations/blob/main/docs/MS Azure/Cloud computing.md",
   "tags": [],
   "version": "current",
